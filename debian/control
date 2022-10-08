@@ -1,0 +1,14 @@
+Source: imageworsener
+Section: misc
+Priority: optional
+Maintainer: leaeasy <lilongyu@deepin.com>
+Build-Depends: debhelper (>=9), libpng-dev, libjpeg-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/jsummers/imageworsener.git
+
+Package: imageworsener
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: ImageWorsener is a cross-platform command-line utility and library for image scaling and other image processing.
+ A utility for processing PNG, JPEG, BMP, and WebP images. 
+ Features include resize/resample, dither, grayscale, apply background color, subpixel rendering. 
